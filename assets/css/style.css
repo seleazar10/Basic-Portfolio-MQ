@@ -105,6 +105,7 @@ html, body{
     border: solid 2px #dddddd;
     margin: 5% 7% 0;
     
+    
      
 
 }
@@ -119,6 +120,11 @@ html, body{
         margin: 20px;
         font-weight: bold;
         
+}
+
+.pic-text{
+    margin: 20px;
+
 }
 
 .partthree{
