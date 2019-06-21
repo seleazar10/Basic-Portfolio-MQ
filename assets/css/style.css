@@ -100,11 +100,29 @@ html, body{
     background-color: #ffffff;
     border: solid 2px #dddddd;
     margin: 10% 22.5% 0;
-   
-    
-    
+     
 
 }
+
+
+.parttwo{
+        font-size: 22px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #4aaaa5; 
+        border-bottom: solid #dddddd;
+        padding: 20px;
+        margin: 20px;
+        
+}
+
+.mypic{
+    float: left;
+    margin: 10px;
+    width: 150px
+}
+
+
+
   /*sticky footer*/
 .container{
    
