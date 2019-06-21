@@ -1,0 +1,66 @@
+
+
+
+@media screen and (max-width: 426px){
+
+.my-name{
+    display: block;
+    text-align: center;
+
+}
+
+.navi-buttons{
+    float: none;
+    text-align: center;
+}
+
+.footer{
+    height: 15%;
+}
+
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+/*small phones to small tablets from 427px to 767px */
+@media screen and (min-width: 427px) and (max-width: 768px){
+
+.navi-buttons li{
+    margin-top: 9%;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+/*laptops */
+@media screen and (max-width: 1440px){
+
+.navi-buttons li{
+    margin-top: 9%;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+}
+@media screen and (max-width: 1840px){
+
+.navi-buttons li{
+    margin-top: 9%;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+}
+

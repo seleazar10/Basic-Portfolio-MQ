@@ -21,19 +21,22 @@ html, body{
     max-width: 100%;
     height: 100%;
 
-   
-
 }
-
-
 
 
 
 .header{
     background-color:#fff;
-    height: 10%;
+    
     
 }
+
+/*
+.nav{
+    margin-top: 10px;
+
+}
+*/
 
 .my-name{
     color: #fff;
@@ -76,6 +79,7 @@ html, body{
 .navi-buttons li a:hover {
         color: #4aaaa5;
         border-bottom: solid;
+        font-size: 108%;
    
 
 
@@ -86,24 +90,20 @@ html, body{
 
 .section{
     background-color: aqua;
-    height: 90%;
+    height: 95%;
     background-color: #f3ffe9;
     border-top: solid 5px #cccccc; 
-    overflow: hidden;
+    
     
     
 }
 
-.nav{
-    margin-left: 22%;
-    margin-right: 22%;
-    margin-top: 1%;
 
-}
 
 .article{
     background-color: #ffffff;
     border: solid 2px #dddddd;
+    margin: 5% 7% 0;
     
      
 
@@ -119,6 +119,13 @@ html, body{
         margin: 20px;
         font-weight: bold;
         
+}
+
+.partthree{
+    color: #777777;
+    letter-spacing: 1.5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px;
 }
 
 .mypic{
@@ -151,6 +158,30 @@ html, body{
 
 /***************portfolio**************/
 
+.boxes{
+
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    margin: 10px;
+    
+
+
+}
+
+ 
+.boxes > div {
+    background-color: #fff;
+    margin: 0 30px;  
+    font-size: 20px;
+    color: #fff;
+    
+
+  }
+
+
+
+
 .flex-container{
     position: relative;
     text-align: center;
@@ -158,12 +189,27 @@ html, body{
 }
 
 .text-position{
-    position: absolute;
-  top: 10%;
+position: absolute;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+  background-color: #4aaaa5;
+  width: 150px;
+  padding: 3px 0;
 
 }
+
+
+.pic-port-size{
+    width: 150px;
+}
+
+.link-decoration{
+    text-decoration: none;
+    color: white;
+
+}
+
+
 
 
