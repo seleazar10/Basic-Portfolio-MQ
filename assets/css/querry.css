@@ -26,8 +26,13 @@
 }
 
 
-/*small phones to small tablets from 427px to 767px */
+
 @media screen and (min-width: 427px) and (max-width: 768px){
+
+
+    .nav{
+        margin-top: 15px;
+    }
 
 .navi-buttons li{
     margin-top: 9%;
@@ -45,6 +50,10 @@
 /*laptops */
 @media screen and (max-width: 1440px){
 
+    .nav{
+        margin-top: 15px;
+    }
+
 .navi-buttons li{
     margin-top: 9%;
     margin-right: 10px;
@@ -55,6 +64,10 @@
 }
 
 @media screen and (max-width: 1840px){
+
+    .nav{
+        margin-top: 15px;
+    }
 
 .navi-buttons li{
     margin-top: 9%;
