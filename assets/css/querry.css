@@ -46,8 +46,13 @@
     flex-direction: column;
 }
 
+.section{
+    overflow: auto;
 }
-/*laptops */
+
+
+}
+
 @media screen and (max-width: 1440px){
 
     .nav{
@@ -59,6 +64,9 @@
     margin-right: 10px;
     font-size: 18px;
 
+}
+.section{
+    overflow: auto;
 }
 
 }
@@ -74,6 +82,9 @@
     margin-right: 10px;
     font-size: 18px;
 
+}
+.section{
+    overflow: auto;
 }
 
 }
