@@ -201,13 +201,13 @@ position: absolute;
   transform: translate(-50%, -50%);
   background-color: #4aaaa5;
   width: 150px;
-  padding: 3px 0;
+  padding: 5px 0;
 
 }
 
 
 .pic-port-size{
-    width: 150px;
+    width: 250px;
 }
 
 .link-decoration{
