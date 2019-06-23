@@ -39,6 +39,7 @@ html, body{
 */
 
 .my-name{
+    text-decoration: none;
     color: #fff;
     background-color:#4aaaa5; 
     font-size: 40px;
